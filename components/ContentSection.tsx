@@ -24,9 +24,9 @@ const ContentSection = () => {
           <p className="mt-3 text-Slate-200 text-lg font-normal">
             Grâce à notre outil magique et intuitif, vous pouvez maintenant
             générer des posts captivants en quelques instants, libérant ainsi du
-            temps pour vous concentrer sur d'autres aspects stratégiques de
+            temps pour vous concentrer sur d&apos;autres aspects stratégiques de
             votre entreprise. En intégrant notre solution dans votre workflow,
-            vous pouvez maximiser votre efficacité et augmenter l'engagement de
+            vous pouvez maximiser votre efficacité et augmenter l&apos;engagement de
             votre audience de manière significative.
           </p>
           <div className="mt-10">

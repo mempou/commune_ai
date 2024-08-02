@@ -151,8 +151,8 @@ const HeroSection = () => {
               </h1>
               <p className=" mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 Notre outil magique génère pour vous des posts optimisés pour
-                Facebook à partir de n'importe quel thème, texte ou URL. Gagnez
-                du temps et améliorez votre engagement dès aujourd'hui !
+                Facebook à partir de n&apos;importe quel thème, texte ou URL. Gagnez
+                du temps et améliorez votre engagement dès aujourd&apos;hui !
               </p>
               <div className="mt-5 max-w-xl  mx-auto sm:flex items-baseline sm:justify-center md:mt-8">
                <input 

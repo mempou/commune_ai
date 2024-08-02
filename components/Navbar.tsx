@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { Bars2Icon, CheckIcon } from '@heroicons/react/24/outline';
 import { BeakerIcon } from '@heroicons/react/24/solid';
+import Image from 'next/image';
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -33,10 +34,12 @@ const Navbar = () => {
                     <div className="flex items-center justify-between w-full md:w-auto">
                       <a href="#">
                         <span className="sr-only">Workflow</span>
-                        <img
+                        <Image
                           className="h-8 w-auto sm:h-10"
                           src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                           alt=""
+                          width={32}
+                          height={32}
                         />
                       </a>
                       <div className="-mr-2 flex items-center md:hidden">
@@ -69,10 +72,12 @@ const Navbar = () => {
                   <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="px-5 pt-4 flex items-center justify-between">
                       <div>
-                        <img
+                        <Image
                           className="h-8 w-auto"
                           src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                           alt=""
+                          width={32}
+                          height={32}
                         />
                       </div>
                       <div className="-mr-2">

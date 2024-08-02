@@ -1,4 +1,5 @@
 import Logo from '@/public/images/Logo.jpg'
+import Image from 'next/image'
 import Link from 'next/link'
 
 
@@ -10,10 +11,12 @@ export default function Register() {
       <div className="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
 
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <img
+          <Image
             className="mx-auto h-12 w-auto"
             src='/images/Logo.jpg'
             alt="Workflow"
+            width={24}
+            height={24}
           />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Inscrivez-vous</h2>
           <p className="mt-2 text-center text-sm text-gray-600">
@@ -128,7 +131,7 @@ export default function Register() {
                   type="submit"
                   className="w-full flex justify-center py-2 px-4 border border-transparent mt-6 rounded-md shadow-sm text-sm font-medium text-white bg-[#FF3B1B] hover:bg-[#502620] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                  S'enregistrez
+                  S&apos;enregistrez
                 </button>
               </Link>
             </form>
